@@ -1,0 +1,132 @@
+
+body{
+    background-color: rgb(11, 121, 121);
+}
+#card{
+    height: 20%;
+    width: 30%;
+    background-color: rgb(53, 143, 143);
+    margin: 10% 35%;
+    align-content: center;
+    padding: 10px;
+}
+#card h3{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    margin-bottom: 8px;
+
+}
+#card input{
+    border-bottom: 3px white solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: rgb(11, 121, 121);
+    margin: 5px;
+    height: 20px;
+    width: 250px;
+    margin-bottom: 8px;
+
+}
+#card button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(10, 188, 219);
+    margin-bottom: 8px;
+    width: 200px;
+
+}
+a{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+
+/*home*/
+#homebody{
+    background-color: white;
+}
+#navbar{
+    display: flex;
+    background-color: rgb(25, 25, 109);
+}
+#navbar a{
+    margin-left: 15%;
+
+}
+#navbar button{
+    margin-left: 15%;
+    color: white;
+    background-color: red;
+
+}
+#one{
+    color: white;
+    background-color: rgb(39,134,149);
+
+}
+#who{
+    background-color: white;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-gap: 40px;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+.services-list div{
+    background-color: grey;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s,transform 0.5s;
+    box-shadow: 1px 1px 10px white,1px 1px 30px white;
+}
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 50px;
+    margin-bottom: 5%;
+}
+
+.team-member {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+#values{
+    background-color: rgb(182, 197, 199);
+}
+#values li{
+    padding: 5px;
+}
+#values li:hover{
+    background-color: aqua;
+}
+.team-member:hover{
+    transform: translateY(-10px) !important;
+}
